@@ -1,0 +1,194 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Base */
+body {
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  background-image: url('imagee.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  padding: 12px 25px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e63946;
+}
+
+/* Info */
+.info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.info h2 {
+  color: #d62828;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.info ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.info ul li {
+  padding: 8px;
+  font-size: 1.1rem;
+}
+
+/* Donation */
+.donation-form {
+  background-color: #fff3cd;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.donation-form h2 {
+  text-align: center;
+  color: #9c6644;
+  margin-bottom: 20px;
+}
+
+.amount-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.amount-buttons button {
+  background-color: #f77f00;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.amount-buttons button:hover {
+  background-color: #c96b00;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffd166;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.pay-btn {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pay-btn:hover {
+  background-color: #21867a;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #e9ecef;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #003049;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial-card h4 {
+  color: #6c757d;
+  margin-top: 15px;
+}
+
+/* Contact */
+.contact {
+  background-color: #f4f1de;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #457b9d;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+}
